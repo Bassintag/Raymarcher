@@ -77,7 +77,12 @@ public class Transform {
                 0, 0, 1
         );
         var rotationMatrix = rotationMatrixX.multiply(rotationMatrixY).multiply(rotationMatrixZ);
-        matrix = positionMatrix.multiply(rotationMatrix);
+        var scaleMatrix = new Matrix4d(
+                scale.getX(), 0, 0,
+                0, scale.getY(), 0,
+                0, 0, scale.getZ()
+        );
+        matrix = positionMatrix.multiply(rotationMatrix).multiply(scaleMatrix);
     }
 
     public Matrix4d getMatrix() {

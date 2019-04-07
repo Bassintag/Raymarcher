@@ -45,6 +45,7 @@ public class RaymarcherGuiApplication {
 
         var s3 = new Sphere(Color.WHITE, 1);
         s3.getTransform().setPosition(new Vector3d(0, 3, 0));
+        s3.getTransform().setScale(new Vector3d(10, 1, 1));
         //var op = new RepeatOperator(s2, new Vector3d(5));
 
         var group1 = new RenderableGroup();
