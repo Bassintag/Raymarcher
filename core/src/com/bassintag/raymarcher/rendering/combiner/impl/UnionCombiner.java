@@ -1,7 +1,7 @@
-package com.bassintag.raymarcher.rendering.combinator.impl;
+package com.bassintag.raymarcher.rendering.combiner.impl;
 
 import com.bassintag.raymarcher.rendering.IRenderOutput;
-import com.bassintag.raymarcher.rendering.combinator.ICombiner;
+import com.bassintag.raymarcher.rendering.combiner.ICombiner;
 
 import java.util.Comparator;
 import java.util.stream.Stream;

@@ -4,8 +4,8 @@ import com.bassintag.raymarcher.Vector3d;
 import com.bassintag.raymarcher.rendering.IRenderOutput;
 import com.bassintag.raymarcher.rendering.IRenderable;
 import com.bassintag.raymarcher.rendering.IRenderableGroup;
-import com.bassintag.raymarcher.rendering.combinator.ICombiner;
-import com.bassintag.raymarcher.rendering.combinator.impl.SmoothUnionCombiner;
+import com.bassintag.raymarcher.rendering.combiner.ICombiner;
+import com.bassintag.raymarcher.rendering.combiner.impl.SmoothUnionCombiner;
 
 import java.util.ArrayList;
 import java.util.List;

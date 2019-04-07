@@ -1,4 +1,4 @@
-package com.bassintag.raymarcher.rendering.combinator;
+package com.bassintag.raymarcher.rendering.combiner;
 
 import com.bassintag.raymarcher.rendering.IRenderOutput;
 
